@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto Final Integrador</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAlZXEAAMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiIiAAACAAAAAAIAAAIAAiIiAgAAAgAAAAACAAACAiIiIgIAAAIAAAAAAgAAAgIiIgACAAACAAABEQIAAAICIgERAgAAAgAAARECAAACAiIBEQIAAAICIgIiAgAAAgAAAAACAAACIiIiIiIAAAAAAAAAAAD//wAA4AMAAO/7AADuCwAA7/sAAOgLAADv+wAA6DsAAO+LAADoiwAA74sAAOiLAADoiwAA7/sAAOADAAD//wAA" rel="icon" type="image/x-icon" />
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <script src="function.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>MI CURRICULUM VITAE</h1>
+        </header>
+        <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Foto de perfil">
+
+        <section id="datos-personales">
+            
+            <button class="titulo-seccion" onclick="mostrarSeccion('seccion-datos-personales')">DATOS PERSONALES</button>
+            <div class="contenido-seccion" id="seccion-datos-personales">
+                <ul>
+                    <li>Nombre: Freddie Harrison</li>
+                    <li>Correo electrónico: freddie.harrison@example.com</li>
+                    <li>Teléfono: (642) 912-8620</li>
+                    <li>Dirección: 718 Cackson St</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="educacion">
+            <button class="titulo-seccion" onclick="mostrarSeccion('seccion-educacion')">EDUCACIÓN</button>
+            <div class="contenido-seccion" id="seccion-educacion">
+                <ul>
+                    <li>American University Washington, DC; Licenciatura en Informática, 2004-2009</li>
+                    <li>Certificado en Desarrollo Web Full Stack, Udemy, 2011</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="experiencia">
+            <button class="titulo-seccion" onclick="mostrarSeccion('seccion-experiencia')">EXPERIENCIA</button>
+            <div class="contenido-seccion" id="seccion-experiencia">
+                <ul>
+                    <li>Desarrollador Web Junior, XXX Company, 2013-2015</li>
+                    <li>Desarrollador Web Senior, ABC Company, 2015-2019</li>
+                    <li>Desarrollador Web Freelance, 2019-actualidad</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="habilidades">
+            <button class="titulo-seccion" onclick="mostrarSeccion('seccion-habilidades')">HABILIDADES</button>
+            <div class="contenido-seccion" id="seccion-habilidades">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2023 Freddie Harrison. Todos los derechos reservados.</p>
+        </footer>
+        
+        
+    </body>
+</html>
